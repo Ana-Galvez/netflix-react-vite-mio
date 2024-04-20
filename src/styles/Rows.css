@@ -1,0 +1,40 @@
+.rows{
+  margin:2% 0;
+}
+
+.rows__title{
+  margin: 2% 1%;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rows__posters{
+  display: flex;
+  padding: 0 1% ;
+  overflow-y: hidden;
+}
+
+.rows__poster{
+  width: 15%;
+  margin: 0 1em;
+}
+
+.rows__poster__img{
+  width: 200px;
+  transition: transform 450ms;
+  -webkit-transition: transform 450ms;
+  -moz-transition: transform 450ms;
+  -ms-transition: transform 450ms;
+  -o-transition: transform 450ms;
+}
+
+.rows__poster__img:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  opacity: 0.9;
+}
+
