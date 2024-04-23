@@ -1,8 +1,8 @@
+import Nav from '../Components/Nav';
+import Banner from '../Components/Banner';
 import Rows from '../Components/Rows';
 import Footer from '../Components/Footer'
 import requests from '../features/Requests';
-import Banner from '../Components/Banner';
-import Nav from '../Components/Nav';
 import '../styles/Home.css';
 
 const Home = () => {

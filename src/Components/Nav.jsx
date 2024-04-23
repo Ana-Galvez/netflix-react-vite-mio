@@ -16,7 +16,7 @@ const Nav = () => {
           <a href="/series">Series</a>
         </ul>
       </div> */}
-      <Link to='/' className='nav__a'>
+      <Link to='/descripcionprueba' className='nav__a'>
         <img className='nav__avatar' src={avatar} alt="Avatar de usuario" />
       </Link>
     </div>

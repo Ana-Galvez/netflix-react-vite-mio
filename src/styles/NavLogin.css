@@ -1,0 +1,32 @@
+.nav{
+  position:absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+
+}
+.nav__a__logo{
+  height: auto;
+  width: 7%;
+}
+.nav__logo{
+  width: 250%;
+  cursor:pointer;
+}
+.nav__button{
+  white-space: nowrap;
+  cursor:pointer;
+  padding:10%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color:rgb(255, 255, 255);
+  background-color: rgb(229, 9, 20);
+  border:none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
