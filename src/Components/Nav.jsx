@@ -9,14 +9,7 @@ const Nav = () => {
       <Link to='/' className='nav__a'>
         <img className='nav__logo' src={logo} alt="Logo de Netflix" />
       </Link>
-      {/* <div className='nav__menu'>
-        <ul>
-          <a href="/">Home</a>
-          <a href="/peliculas">Películas</a>
-          <a href="/series">Series</a>
-        </ul>
-      </div> */}
-      <Link to='/descripcionprueba' className='nav__a'>
+      <Link to='/profile' className='nav__a'>
         <img className='nav__avatar' src={avatar} alt="Avatar de usuario" />
       </Link>
     </div>

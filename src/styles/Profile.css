@@ -1,0 +1,50 @@
+.profile{
+  height: 100vh;
+  color:#fff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(24, 12, 12);
+}
+.profile__principal{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 800px;
+  margin: auto ;
+  padding-top: 15%;
+}
+.profile__principal > h1{
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+.profile__info{
+  display: flex;
+}
+.profile__info > img{
+  width: 20%;
+  height: 10%;
+}
+.profile__info--detalles{
+  margin-left: 2%;
+  flex: 1; 
+}
+.profile__info--detalles > h2{
+  background-color: rgb(170, 170, 170);
+  font-size: 2em;
+  padding:1% 1.5%;
+  margin-bottom: 8.5%;
+}
+.profile__info--detalles > button{
+  cursor:pointer;
+  padding:1% 2%;
+  font-size: 2em;
+  font-weight: 700;
+  color:rgb(255, 255, 255);
+  background-color: rgb(229, 9, 20);
+  border:none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
