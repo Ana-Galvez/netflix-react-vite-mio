@@ -17,6 +17,7 @@
 .rows__poster{
   width: 15%;
   margin: 0 1em;
+  text-decoration: none;
 }
 
 .rows__poster__img{
@@ -36,5 +37,11 @@
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
   opacity: 0.9;
+}
+
+.rows__movieName{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#fff;
+  font-size: 1.5rem;
 }
 

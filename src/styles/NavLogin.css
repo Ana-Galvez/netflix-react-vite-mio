@@ -18,7 +18,7 @@
 .nav__button{
   white-space: nowrap;
   cursor:pointer;
-  padding:10%;
+  padding:1% 2%;
   font-size: 1.2rem;
   font-weight: 700;
   color:rgb(255, 255, 255);
@@ -29,4 +29,7 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.nav__button:hover{
+  opacity: 0.9;
 }
