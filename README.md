@@ -11,7 +11,7 @@
 
 ## Creación de las páginas y css
 
-- Home(incompleto, inicio) VER EN HOME.JSX QUE ESTÁN COMENTADOS LOS COMPONENTES DE NAV Y BANNER
+- Home(completo, inicio)
 - Descripción(incompleto)
 - Login(completo)
 - Iniciar Sesión(completo)
