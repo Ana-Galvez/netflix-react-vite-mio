@@ -11,7 +11,38 @@
 .rows__posters{
   display: flex;
   padding: 0 1% ;
-  overflow-y: hidden;
+  overflow-y:hidden;
+  overflow-x: hidden;
+}
+
+.rows__arrows{
+  position: absolute;
+  height: 10%;
+  align-self: center;
+  z-index: 1;
+  cursor: pointer;
+  transition: transform 450ms;
+  -webkit-transition: transform 450ms;
+  -moz-transition: transform 450ms;
+  -ms-transition: transform 450ms;
+  -o-transition: transform 450ms;
+  opacity: 0.7;
+}
+
+.rows__arrows:hover{
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+
+.left{
+  left:1px;
+}
+
+.right{
+  right: 1px;
 }
 
 .rows__poster{
@@ -22,21 +53,16 @@
 
 .rows__poster__img{
   width: 200px;
-  transition: transform 450ms;
-  -webkit-transition: transform 450ms;
-  -moz-transition: transform 450ms;
-  -ms-transition: transform 450ms;
-  -o-transition: transform 450ms;
+  transition: opacity 450ms;
+  -webkit-transition: opacity 450ms;
+  -moz-transition: opacity 450ms;
+  -ms-transition: opacity 450ms;
+  -o-transition: opacity 450ms;
 }
 
 .rows__poster__img:hover{
   cursor: pointer;
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 .rows__movieName{
